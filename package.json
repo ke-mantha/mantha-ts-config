@@ -1,0 +1,19 @@
+{
+  "name": "mantha-ts-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsconfig.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ke-mantha/mantha-ts-config.git"
+  },
+  "author": "kaskar2008",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ke-mantha/mantha-ts-config/issues"
+  },
+  "homepage": "https://github.com/ke-mantha/mantha-ts-config#readme"
+}
