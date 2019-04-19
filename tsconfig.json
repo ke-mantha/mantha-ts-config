@@ -29,7 +29,6 @@
     "noImplicitThis": true,
     "noImplicitReturns": true,
     "noImplicitAny": false,
-    "baseUrl": "./",
     "lib": [
       "dom",
       "es2015",
@@ -51,11 +50,5 @@
       "@types/webpack",
       "@types/webpack-dev-server"
     ]
-  },
-  "include": [
-    "./"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  }
 }
