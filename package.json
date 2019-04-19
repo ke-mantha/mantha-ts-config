@@ -4,7 +4,8 @@
   "description": "",
   "main": "tsconfig.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ke-mantha/mantha-ts-config/issues"
   },
-  "homepage": "https://github.com/ke-mantha/mantha-ts-config#readme"
+  "homepage": "https://github.com/ke-mantha/mantha-ts-config#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.5",
+    "@types/webpack": "^4.4.27",
+    "@types/webpack-dev-server": "^3.1.5"
+  }
 }
