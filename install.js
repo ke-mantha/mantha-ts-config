@@ -1,3 +1,3 @@
 var fs = require('fs');
 
-fs.copyFileSync('./tsconfig.new.json', proccess.cwd() + '/src/tsconfig.json')
+fs.copyFileSync('./tsconfig.new.json', process.cwd() + '/src/tsconfig.json')
