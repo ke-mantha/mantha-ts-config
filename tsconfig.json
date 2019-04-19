@@ -12,6 +12,7 @@
       "config/*": ["./.config/*"],
       "text": ["./.text/index"]
     },
+    "baseUrl": "./",
     "target": "es5",
     "moduleResolution": "node",
     "module": "esnext",
