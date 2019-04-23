@@ -5,12 +5,8 @@
       "~/*": ["./assets/*"],
       "components/*": ["./components/*"],
       "pages/*": ["./pages/*"],
-      "mixins/*": ["./mixins/*"],
       "themes/*": ["./themes/*"],
-      "plugins/*": ["./plugins/*"],
-      "media/*": ["./plugins/mixins/mantha-media/*"],
-      "config/*": ["./.config/*"],
-      "text": ["./.text/index"]
+      "config/*": ["./.config/*"]
     },
     "baseUrl": "./",
     "target": "es5",
