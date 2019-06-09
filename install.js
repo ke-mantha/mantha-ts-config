@@ -11,4 +11,4 @@ function resolveDirName(...args) {
 
 fs.copyFileSync(resolveDirName('tsconfig.src.json'), resolveInitCWD('src', 'tsconfig.json'));
 fs.copyFileSync(resolveDirName('tsconfig.root.json'), resolveInitCWD('tsconfig.json'));
-fs.copyFileSync(resolveDirName('tsconfig.module.json'), resolveInitCWD());
+fs.copyFileSync(resolveDirName('tsconfig.module.json'), resolveInitCWD('tsconfig.module.json'));
