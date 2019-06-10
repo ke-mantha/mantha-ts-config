@@ -1,5 +1,14 @@
 var fs = require('fs');
+var path = require('path');
 
-fs.copyFileSync('./tsconfig.src.json', process.env.INIT_CWD + '/src/tsconfig.json')
-fs.copyFileSync('./tsconfig.root.json', process.env.INIT_CWD + '/tsconfig.json')
-fs.copyFileSync('./tsconfig.module.json', process.env.INIT_CWD)
+function resolveInitCWD(...args) {
+  return path.join(process.env.INIT_CWD, ...args);
+}
+
+function resolveDirName(...args) {
+  return path.join(__dirname, ...args)
+}
+
+fs.copyFileSync(resolveDirName('tsconfig.src.json'), resolveInitCWD('src', 'tsconfig.json'));
+fs.copyFileSync(resolveDirName('tsconfig.root.json'), resolveInitCWD('tsconfig.json'));
+fs.copyFileSync(resolveDirName('tsconfig.module.json'), resolveInitCWD('tsconfig.module.json'));
